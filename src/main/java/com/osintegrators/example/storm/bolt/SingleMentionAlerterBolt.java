@@ -89,7 +89,7 @@ public class SingleMentionAlerterBolt extends BaseBasicBolt
         try
         {
 
-            Chat chat = ChatManager.getInstanceFor(xmppConnection).createChat( "motley.crue.fan@gmail.com", new MessageListener() {
+            Chat chat = ChatManager.getInstanceFor(xmppConnection).createChat( "some_user_of_interest@gmail.com", new MessageListener() {
 
                 @Override
                 public void processMessage(Chat chat, Message message)
